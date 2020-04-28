@@ -17,7 +17,8 @@ function setOptions(query) {
 	let querystring = {
 		version: '1.0',
 		access_token: 'FLpcfZH4CbW4muO', // eslint-disable-line
-		device_type: 'com.crunchyroll.manga.android', // eslint-disable-line
+		// device_type: 'com.crunchyroll.manga.android', // eslint-disable-line
+		device_type: 'com.crunchyroll.www',
 		device_id: generateId() // eslint-disable-line
 	};
 
