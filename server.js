@@ -16,8 +16,8 @@ const knownVersions = ['1.0', '1.1'];
 function setOptions(query) {
 	let querystring = {
 		version: '1.0',
-		access_token: 'Scwg9PRRZ19iVwD', // eslint-disable-line
-		device_type: 'com.crunchyroll.crunchyroid', // eslint-disable-line
+		access_token: 'FLpcfZH4CbW4muO', // eslint-disable-line
+		device_type: 'com.crunchyroll.manga.android', // eslint-disable-line
 		device_id: generateId() // eslint-disable-line
 	};
 
@@ -42,6 +42,7 @@ function generateId() {
 	for (var i = 0; i < 32; i++) {
 		id += possible.charAt(Math.floor(Math.random() * possible.length));
 	}
+	console.log(id);
 	return id;
 }
 
